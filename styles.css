@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #header {
+    background-color: darkred;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #header h1 {
+    color: black;
+    margin: 0;
+  }
+
+  #content {
+    margin: 20px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-container div {
+    width: 23%;
+    position: relative;
+    padding-bottom: 23%; /* 1:1 aspect ratio */
+    overflow: hidden;
+  }
+
+  .image-container p {
+    text-align: center;
+    position: relative; 
+    background-color: black;
+  }
+
+  .deadpool {
+    display: inline-block;
+  }
+
+  .image-container .wild {
+    background-color: gold;
+    color: black;
+  }
+
+  .intro {
+    display: inline-block;
+    margin: 30px 110px;
+    text-align: center;
+  }
+
+ 
+
