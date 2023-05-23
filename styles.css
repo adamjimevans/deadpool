@@ -54,7 +54,10 @@ body {
   }
 
   .deadpool {
-    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-self:center;
   }
 
   .image-container .wild {
@@ -68,5 +71,12 @@ body {
     text-align: center;
   }
 
- 
+  h2 {
+  margin-top: 50px;
+ }
+
+ .open {
+  margin-bottom: 30px;
+  display: flex;
+ }
 
