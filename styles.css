@@ -80,3 +80,27 @@ body {
   display: flex;
  }
 
+ table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+.gone {
+  filter: grayscale();
+}
+
+.wasted {
+  color: darkred;
+  font-weight: 700;
+  font-size: 25px;
+}
+
